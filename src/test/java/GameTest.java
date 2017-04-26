@@ -54,22 +54,23 @@ public class GameTest {
 
     }
     @Test()
-    public void roll3AndRoll4Return24(){
+    public void spare(){
         //Act
         game.roll(3);
         game.roll(5);
         game.roll(7);
         game.roll(2);
-        game.roll(0);
-        game.roll(0);
-        game.roll(3);
-        game.roll(4);
+        game.roll(5);
+        game.roll(5);
+
 
         result=game.score();
         //Assert
-        assertEquals(24,result);
+        assertEquals(27,result);
 
     }
+
+
 
 
 }
