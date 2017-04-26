@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="262f0b66-68c8-499b-9478-684c68c7693a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Game.java" afterPath="$PROJECT_DIR$/src/main/java/Game.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/GameTest.java" afterPath="$PROJECT_DIR$/src/test/java/GameTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,8 +25,8 @@
       <file leaf-file-name="GameTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/GameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+            <state relative-caret-position="-14">
+              <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -482,7 +481,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GameTest">
+  <component name="RunManager" selected="JUnit.GameTest.roll3AndRoll4Return24">
     <configuration default="false" name="GameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="bowling-kata_test" />
@@ -533,6 +532,48 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GameTest" />
       <option name="METHOD_NAME" value="roll3AndRoll5Return8" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="GameTest.roll0AndRoll0Return17" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="bowling-kata_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameTest" />
+      <option name="METHOD_NAME" value="roll0AndRoll0Return17" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="GameTest.roll3AndRoll4Return24" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="bowling-kata_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameTest" />
+      <option name="METHOD_NAME" value="roll3AndRoll4Return24" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -926,16 +967,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.GameTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.GameTest.roll7AndRoll2Return7" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.GameTest.roll3AndRoll5Return8" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GameTest.roll0AndRoll0Return17" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GameTest.roll3AndRoll4Return24" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GameTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GameTest.roll3AndRoll5Return8" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.GameTest.roll7AndRoll2Return7" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GameTest.roll3AndRoll4Return24" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GameTest.roll0AndRoll0Return17" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GameTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.GameTest.roll3AndRoll5Return8" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GameTest.roll7AndRoll2Return7" />
       </list>
     </recent_temporary>
   </component>
@@ -949,17 +994,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493216374823</updated>
-      <workItem from="1493216385974" duration="2242000" />
+      <workItem from="1493216385974" duration="3142000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GameTest - 2017.04.26 at 11h 44m 47s.xml">
-      <configuration name="GameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest - 2017.04.26 at 11h 45m 27s.xml">
-      <configuration name="GameTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GameTest - 2017.04.26 at 11h 46m 01s.xml">
       <configuration name="GameTest" configurationId="JUnit" />
     </history-entry>
@@ -971,6 +1010,12 @@
     </history-entry>
     <history-entry file="GameTest - 2017.04.26 at 11h 57m 43s.xml">
       <configuration name="GameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_roll0AndRoll0Return17 - 2017.04.26 at 12h 12m 16s.xml">
+      <configuration name="GameTest.roll0AndRoll0Return17" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_roll3AndRoll4Return24 - 2017.04.26 at 12h 13m 08s.xml">
+      <configuration name="GameTest.roll3AndRoll4Return24" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GameTest_roll3AndRoll5Return8 - 2017.04.26 at 11h 52m 41s.xml">
       <configuration name="GameTest.roll3AndRoll5Return8" configurationId="JUnit" />
@@ -986,7 +1031,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2242000" />
+    <option name="totallyTimeSpent" value="3142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1052,8 +1097,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        <state relative-caret-position="-14">
+          <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

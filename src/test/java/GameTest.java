@@ -27,7 +27,7 @@ public class GameTest {
         assertEquals(8,result);
     }
     @Test()
-    public void roll7AndRoll2Return7(){
+    public void roll7AndRoll2Return17(){
         //Act
         game.roll(3);
         game.roll(5);
@@ -38,5 +38,38 @@ public class GameTest {
         assertEquals(17,result);
 
     }
+    @Test()
+    public void roll0AndRoll0Return17(){
+        //Act
+        game.roll(3);
+        game.roll(5);
+        game.roll(7);
+        game.roll(2);
+        game.roll(0);
+        game.roll(0);
+
+        result=game.score();
+        //Assert
+        assertEquals(17,result);
+
+    }
+    @Test()
+    public void roll3AndRoll4Return24(){
+        //Act
+        game.roll(3);
+        game.roll(5);
+        game.roll(7);
+        game.roll(2);
+        game.roll(0);
+        game.roll(0);
+        game.roll(3);
+        game.roll(4);
+
+        result=game.score();
+        //Assert
+        assertEquals(24,result);
+
+    }
+
 
 }
