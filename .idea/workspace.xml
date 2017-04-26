@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="262f0b66-68c8-499b-9478-684c68c7693a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Game.java" afterPath="$PROJECT_DIR$/src/main/java/Game.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/GameTest.java" afterPath="$PROJECT_DIR$/src/test/java/GameTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,8 +26,8 @@
       <file leaf-file-name="GameTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/GameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="71" column="23" lean-forward="false" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,11 +38,13 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="136">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
-                <element signature="e#173#174#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#116#117#0" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -994,7 +997,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493216374823</updated>
-      <workItem from="1493216385974" duration="3758000" />
+      <workItem from="1493216385974" duration="4129000" />
     </task>
     <servers />
   </component>
@@ -1020,18 +1023,18 @@
     <history-entry file="GameTest_roll3AndRoll4Return24 - 2017.04.26 at 12h 24m 27s.xml">
       <configuration name="GameTest.roll3AndRoll4Return24" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GameTest_roll3AndRoll5Return8 - 2017.04.26 at 11h 52m 41s.xml">
-      <configuration name="GameTest.roll3AndRoll5Return8" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GameTest_roll3AndRoll5Return8 - 2017.04.26 at 11h 53m 44s.xml">
       <configuration name="GameTest.roll3AndRoll5Return8" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GameTest_spare - 2017.04.26 at 12h 24m 39s.xml">
       <configuration name="GameTest.spare" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GameTest_spare - 2017.04.26 at 12h 29m 40s.xml">
+      <configuration name="GameTest.spare" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3758000" />
+    <option name="totallyTimeSpent" value="4129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1086,19 +1089,21 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="71" column="23" lean-forward="false" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

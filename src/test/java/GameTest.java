@@ -60,13 +60,16 @@ public class GameTest {
         game.roll(5);
         game.roll(7);
         game.roll(2);
+        /*spare*/
         game.roll(5);
         game.roll(5);
+        /*next roll*/
+        game.roll(3);
 
 
         result=game.score();
         //Assert
-        assertEquals(27,result);
+        assertEquals(30,result);
 
     }
 
